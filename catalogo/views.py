@@ -33,4 +33,6 @@ def car_detail(request, category_slug, car_slug):
         'single_car': single_car,
     }
 
-    return render(request, 'catalogo/car_detail.hml')
+    return render(request, 'catalogo/car_detail.html', context)
+
+
